@@ -126,7 +126,7 @@ function checkWin() {
     const isWon = lettersInPhrase.every(char => guessedLetters.includes(normalizeChar(char)));
     if (isWon) {
         // Show message inline instead of modal
-        statsDisplay.innerHTML = `<div style="margin-top:20px; font-size:1.2rem; color:#4a148c;">¡Te Amo! ❤️<br><br>"${PHRASE}"</div>`;
+        // statsDisplay.innerHTML = `<div style="margin-top:20px; font-size:1.2rem; color:#4a148c;">¡Te Amo! ❤️<br><br>"${PHRASE}"</div>`;
         keyboard.style.pointerEvents = 'none';
     }
 }
