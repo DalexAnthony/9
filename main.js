@@ -1,4 +1,4 @@
-const PHRASE = `Antes creía que el corazón uno lo podía dirigir hacia aquí o hacia allá, según quisiera, como si se pudiera manejar a capricho. Pero ahora sé que no es así, que ni siquiera es completamente mío. Porque en algún momento te eligió a ti, se quedó contigo… y yo entendí que te amo.`;
+
 
 let chosenWord = ""; // This will now represent the full phrase
 let guessedLetters = [];
